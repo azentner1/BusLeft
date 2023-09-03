@@ -27,8 +27,6 @@ import androidx.compose.ui.unit.sp
 import com.andrej.busleft.R
 import com.andrej.busleft.features.route_details.model.domain.Routes
 import com.andrej.busleft.features.routes.model.domain.Route
-import com.mapbox.api.directions.v5.models.DirectionsRoute
-import com.mapbox.api.directions.v5.models.DirectionsWaypoint
 
 @Composable
 fun RouteListComponent(routes: Routes, onNavigateToDetails: (routeId: String) -> Unit) {

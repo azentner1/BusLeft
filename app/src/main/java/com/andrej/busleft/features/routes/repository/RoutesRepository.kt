@@ -1,10 +1,10 @@
 package com.andrej.busleft.features.routes.repository
 
-import com.andrej.busleft.base.model.ErrorEntity
-import com.andrej.busleft.features.routes.mapper.RoutesMapper
-import com.andrej.busleft.base.model.DataResult
 import com.andrej.busleft.base.api.ApiService
+import com.andrej.busleft.base.model.DataResult
+import com.andrej.busleft.base.model.ErrorEntity
 import com.andrej.busleft.features.route_details.model.domain.Routes
+import com.andrej.busleft.features.routes.mapper.RoutesMapper
 import com.andrej.busleft.features.routes.model.remote.RoutesResponse
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow

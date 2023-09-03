@@ -2,8 +2,6 @@ package com.andrej.busleft.mappers
 
 import com.andrej.busleft.features.route_details.model.domain.Routes
 import com.andrej.busleft.features.route_details.model.remote.RemoteRouteData
-import com.andrej.busleft.features.route_details.model.remote.RemoteStudentData
-import com.andrej.busleft.features.route_details.model.remote.RouteByIdResponse
 import com.andrej.busleft.features.routes.mapper.RoutesMapper
 import com.andrej.busleft.features.routes.model.remote.RoutesResponse
 import org.junit.Test

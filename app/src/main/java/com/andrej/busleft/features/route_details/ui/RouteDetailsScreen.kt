@@ -7,10 +7,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.andrej.busleft.base.model.DataResult
 import com.andrej.busleft.base.ui.components.ErrorComponent
 import com.andrej.busleft.base.ui.components.FullscreenLoadingComponent
 import com.andrej.busleft.features.route_details.ui.components.RouteDetailsComponent

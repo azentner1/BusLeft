@@ -2,20 +2,16 @@ package com.andrej.busleft
 
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.SemanticsNodeInteraction
-import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
-import androidx.compose.ui.test.performClick
 import com.andrej.busleft.base.ui.components.TEST_TAG_LOADING_INDICATOR
 import com.andrej.busleft.features.route_details.ui.components.TEST_TAG_ROUTE_DETAILS
 import com.andrej.busleft.features.route_details.ui.components.TEST_TAG_ROUTE_DETAILS_INFO
 import com.andrej.busleft.features.routes.ui.components.TEST_TAG_ARG_ROUTE_LIST_ITEM
 import com.andrej.busleft.features.routes.ui.components.TEST_TAG_ROUTE_LIST
 import com.andrej.busleft.features.routes.ui.components.TEST_TAG_ROUTE_LIST_ITEM
-
-import org.junit.Test
-
 import org.junit.Rule
+import org.junit.Test
 
 @OptIn(ExperimentalTestApi::class)
 class UiFlowTest {

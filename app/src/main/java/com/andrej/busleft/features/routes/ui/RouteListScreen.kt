@@ -4,13 +4,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.andrej.busleft.features.routes.viewmodel.RouteListViewModel
-import com.andrej.busleft.base.model.DataResult
 import com.andrej.busleft.base.ui.components.ErrorComponent
 import com.andrej.busleft.base.ui.components.FullscreenLoadingComponent
-import com.andrej.busleft.features.route_details.model.domain.Routes
 import com.andrej.busleft.features.routes.ui.components.RouteListComponent
 import com.andrej.busleft.features.routes.viewmodel.RouteListEvent
+import com.andrej.busleft.features.routes.viewmodel.RouteListViewModel
 
 @Composable
 fun RouteListScreen(

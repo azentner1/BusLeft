@@ -2,10 +2,10 @@ package com.andrej.busleft.features.route_details.repository
 
 import android.content.Context
 import com.andrej.busleft.R
+import com.andrej.busleft.base.api.ApiService
+import com.andrej.busleft.base.model.DataResult
 import com.andrej.busleft.base.model.ErrorEntity
 import com.andrej.busleft.features.route_details.mapper.RouteMapper
-import com.andrej.busleft.base.model.DataResult
-import com.andrej.busleft.base.api.ApiService
 import com.andrej.busleft.features.route_details.model.remote.RouteByIdResponse
 import com.andrej.busleft.features.routes.model.domain.Route
 import com.mapbox.api.directions.v5.DirectionsCriteria
