@@ -1,19 +1,19 @@
-- Bus route application
+# Bus route application
 
-- Stack:
-    Kotlin
-    MVVM
-    Compose
-    Retrofit
+### Stack:
+    - Kotlin
+    - MVVM
+    - Compose
+    - Retrofit
 
 - Architecture 
-  Split into: repository -> view model -> ui layers. data source layer can optionally be added as first in the downstream flow but i have not added it for simplicity.
-  feature folder is split per feature/screen. 
-  feature is further structured into these packages:
-     mapper - maps remote data to domain data and viceversa
-     repository - handles remote calls, mapping and flowing data to the viewmodel
-     viewmodel - translates domain data into ui state
-     ui - consumes the ui state
+  Split into: `repository` -> `view model` -> `ui` layers. `data source` layer can optionally be added as first in the downstream flow but i have not added it for simplicity.
+  `feature` folder is split per feature/screen. 
+  `feature` is further structured into these packages:
+     `mapper` - maps remote data to domain data and viceversa
+     `repository` - handles remote calls, mapping and flowing data to the `viewmodel`
+     `viewmodel` - translates domain data into ui state
+     `ui` - consumes the ui state
 
   Single module, splitting into multiple modules doesn't make sense for this. However, if required, package structure is ready for modularization
 
