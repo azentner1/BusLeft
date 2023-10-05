@@ -23,10 +23,10 @@ https://github.com/azentner1/BusLeft/assets/42001876/c0e972da-6e4e-4ad2-a9f9-ec4
 
 ### Implementation 
 
-  Simple REST consumer, follow MVVM pattern with Flow API used for moving data between layers. 
-  Mapping is achieved using Mapbox SDK, Routing using Mapbox Services SDK.
-  Utilizes a pattern for Compose Navigation
-  Design - award winning
+  - Simple REST consumer, follow MVVM pattern with Flow API used for moving data between layers. 
+  - Mapping is achieved using Mapbox SDK, Routing using Mapbox Services SDK.
+  - Utilizes a pattern for Compose Navigation
+  - Design - award winning
   
 ### Tests
   Contains Compose UI test of app navigation flow - currently not used as it requires targetSdk = 34 & APG = 8
